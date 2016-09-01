@@ -7,7 +7,7 @@ cask 'lastpass' do
   homepage 'https://lastpass.com/'
   license :gratis
 
-  installer manual: 'LastPass Installer.app'
+  installer manual: 'latest/LastPass Installer.app'
 
   uninstall script: {
                       executable: 'Uninstaller.app/Contents/Resources/uninstall.sh',
